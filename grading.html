@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="grading.css">
+</head>
+<body>
+    <div class=".reort">
+        <h1 class="re">REPORT CARD</h1>
+    </div>
+    <div class="nav">
+        <div class="nav1">
+            <h3>Name :</h3>
+            <h3>Admission Number:</h3>
+            <h3>Class : Jss1 A</h3>
+        </div>
+        <div class="nav2">
+            <input type="text" placeholder="Enter Name" id="studentname"><br><br>
+            <input type="text" placeholder="Enter Admin Num" id="adminNo">
+            
+            <h3>SESSION 2020/2021</h3>
+        </div>
+        <div class="nav3">
+            <h5>GENDER : MALE</h1>
+            <h4>TERM : 1st Term</h2>
+        </div>
+    </div>
+    <div class="main">
+        <div class="main2">
+            <h2 class="h2">SUBJECT</h2>
+            <ul>MATHEMATICS</ul>
+            <input id="math" type="number">
+            <ul>ENGLISH_LANGUAGE</ul>
+            <input id="english" type="number">
+            <ul>AGRICULTURE</ul>
+            <input id="agric" type="number">
+            <ul>SOCIAL_STUDIES</ul>
+            <input id="social" type="number">
+            <button onclick="checkResult()">CHECK RESULT</button>
+        </div> 
+        <div class="main3">
+        <div class="total">
+            <p id="names"></p>
+            <p id="admin"></p>
+            <p id="score"></p>
+            <p id="comm"></p>
+        </div>
+        </div>
+    </div>
+    
+    <script src="grading.js"></script>
+</body>
+</html>
